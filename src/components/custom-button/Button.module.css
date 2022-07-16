@@ -1,4 +1,4 @@
-.custom-button {
+.custombutton {
   min-width: 165px;
   width: auto;
   height: 50px;
@@ -13,10 +13,11 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
+}
 
-  &:hover {
+.custombutton:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
   }
-}
+
